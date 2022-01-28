@@ -1,18 +1,15 @@
-head{
-	background-color: lightblue;
-}
 .content-wrapper{
 	padding: 10px 30px;
 }
 body{
-	background-color: orange;
+	background-color: rgb(177, 244, 253);
 }
 h1{
 	text-align: center;
 }
 .bio{
 	font-weight: 300;
-	color: forestgreen;
+	color: rgb(46, 11, 23);
 }
 h1, h2{
 	font-weight: 400;
