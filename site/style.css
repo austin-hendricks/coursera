@@ -1,0 +1,20 @@
+head{
+	background-color: lightblue;
+}
+.content-wrapper{
+	padding: 10px 30px;
+}
+body{
+	background-color: white;
+}
+h1{
+	text-align: center;
+}
+.bio{
+	font-weight: 300;
+	color: forestgreen;
+}
+h1, h2{
+	font-weight: 400;
+}
+

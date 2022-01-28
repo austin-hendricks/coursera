@@ -8,10 +8,8 @@
 </head>
 <body>
 <h1>Hello Coursera!</h1>
-<div class="content-wrapper">
 <div class=bio>
 	<p> My name is Austin Hendricks. I am a university student in Ohio who is currently taking a Web Applications project course through my school. However, that course is moving at an incredibly fast pace, so I have come to Coursera to help supplement my learning. This is my very first taste of web programming!</p>
-</div>
 </div>
 </body>
 </html>
