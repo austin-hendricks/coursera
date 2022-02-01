@@ -27,8 +27,6 @@ body{
 }
 .content-wrapper h1, .content-wrapper h2, .content-wrapper h3{
 	margin-top: 2rem;
-	margin-bottom: 1rem;
-
 }
 #favorites h3{
 	color: rgba(137, 43, 226, 0.69);
