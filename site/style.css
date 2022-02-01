@@ -86,3 +86,9 @@ html{
 	margin-top: 0;
 	margin-bottom: 0.1rem;
 }
+.pagenav{
+	font-size: 0.8rem;
+	word-wrap: break-word;
+	padding: 1rem 0rem;
+	text-align: center;
+}
