@@ -59,6 +59,11 @@ html{
 	-ms-text-size-adjust:100%;
 	-webkit-text-size-adjust:100%;
 }
+img{
+	width: auto ;
+	max-width: 50% ;
+	height: auto ;
+  }
 #links{
 	margin-top: 4em;
 }
