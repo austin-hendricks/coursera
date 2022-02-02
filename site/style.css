@@ -3,9 +3,9 @@
 }
 .content-wrapper{
 	max-width: 64em;
-	padding: 2rem 6rem;
+	padding: 0rem 6rem;
 	margin: 0 auto;
-	margin-bottom: 2rem;
+	margin-bottom: 3rem;
 	font-size: 1.1rem;
 	word-wrap: break-word;
 }
@@ -18,38 +18,30 @@ body{
 	text-align: left;
 	font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
-.content-wrapper h1, .content-wrapper h2, .content-wrapper h3{
+.content-wrapper h2, .content-wrapper h3 {
+	color: #cc3a3a;
 	margin-top: 2rem;
 }
-em{
-	font-style: italic;
-}
-footer{
+header, footer, h1, h2, h3 {
 	display: block;
 }
 h1{
 	font-size: 2em;
 	margin: 0.67em 0;
-	display: block;
 	font-weight: bold;
 }
 h2{
-	display: block;
 	font-size: 1.5em;
-	margin-block-start: 0.83em;
-	margin-block-end: 0.83em;
-	margin-inline-start: 0px;
-	margin-inline-end: 0px;
+	padding-top: 1.5rem;
 }
 h3{
-	display:block;
 	font-size: 1.2em;
 	margin: 0.67em 0;
 	font-weight: normal;
 }
-header{
-	display: block;
+header, footer{
 	color: white;
+	text-align: center;
 }
 html{
 	-ms-text-size-adjust: 100%;
@@ -59,20 +51,14 @@ img{
 	width: auto ;
 	max-width: 50% ;
 	height: auto ;
-  }
-#links{
-	margin-top: 4em;
 }
 .page-header{
 	padding: 5rem 6rem;
-	text-align: center;
 	background-image: linear-gradient(120deg, #EB5757, #921515);
 }
 .page-footer{
 	padding: 0.1em;
-	color: white;
 	font-size: 0.75em;
-	text-align: center;
 	background-color: rgb(27, 27, 27)
 }
 .page-description{
@@ -88,10 +74,6 @@ img{
 }
 .pagenav{
 	font-size: 0.8rem;
-	word-wrap: break-word;
 	padding: 1rem 0rem;
 	text-align: center;
-}
-.text-label{
-	color: #cc3a3a;
 }
