@@ -2,7 +2,7 @@
 	box-sizing: border-box;
 }
 a:link{
-	color: #cc3a3a;
+	color: #EB5757;
 }
 a:visited{
 	color: black;
@@ -32,11 +32,60 @@ body{
 	font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 .content-wrapper h2, .content-wrapper h3 {
-	color: #cc3a3a;
+	color: #EB5757;
 	margin-top: 2rem;
 }
-header, footer, h1, h2, h3 {
-	display: block;
+
+/*--------------------------------------------------------------------------------------------------------
+	Define animation for programming languages in header */
+
+hgroup#planguages-animation{
+	margin: 3rem 0 0 0 ;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	font-family: 'Courier New', monospace;
+}
+hgroup#planguages-animation h3{
+	margin: 0;
+	padding: 0;
+	font-size: 40px;
+}
+hgroup#planguages-animation h3 span{
+	display: inline-flex;
+}
+hgroup#planguages-animation h3 span:nth-child(even) {
+	overflow: hidden;
+	transition: ease-in-out 0.5s;
+	letter-spacing: -1em;
+}
+header:hover > hgroup#planguages-animation h3 span:nth-child(even) {
+	letter-spacing: 0;
+}
+
+/* Transition delays for each even child */
+
+header:hover > hgroup#planguages-animation h3 span:nth-child(2) {
+	transition-delay: 0.0s;
+}
+header:hover > hgroup#planguages-animation h3 span:nth-child(4) {
+	transition-delay: 0.33s;
+}
+header:hover > hgroup#planguages-animation h3 span:nth-child(6) {
+	transition-delay: 0.67s;
+}
+header:hover > hgroup#planguages-animation h3 span:nth-child(8) {
+	transition-delay: 1.0s;
+}
+
+/* End animation code
+---------------------------------------------------------------------------------------------------------*/
+
+header, header h1, header h2, header h3{
+	margin: 0;
+	padding: 0;
 }
 h1{
 	font-size: 2em;
@@ -52,6 +101,9 @@ h3{
 	margin: 0.67em 0;
 	font-weight: normal;
 }
+footer, h1, h2, h3 {
+	display: block;
+}
 header, footer{
 	color: white;
 	text-align: center;
@@ -66,7 +118,7 @@ img{
 	height: auto ;
 }
 .page-header{
-	padding: 5rem 6rem;
+	padding: 4rem 6rem;
 	background-image: linear-gradient(120deg, #EB5757, #921515);
 }
 .page-footer{
@@ -77,13 +129,12 @@ img{
 .page-description{
 	opacity: 0.7;
 	font-size: 1.25rem;
-	margin-bottom: 2rem;
+	margin-top: 1rem;
 	font-weight: normal;
 }
 .page-name{
 	font-size:3.25rem;
-	margin-top: 0;
-	margin-bottom: 0.1rem;
+	margin: 0;
 }
 .pagenav{
 	font-size: 0.8rem;
