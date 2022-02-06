@@ -51,7 +51,7 @@ hgroup#planguages-animation{
 hgroup#planguages-animation h3{
 	margin: 0;
 	padding: 0;
-	font-size: 40px;
+	font-size: 20px;
 }
 
 @media (hover: hover) and (pointer: fine) {
@@ -59,7 +59,7 @@ hgroup#planguages-animation h3{
 	hgroup#planguages-animation h3{
 		margin: 0;
 		padding: 0;
-		font-size: 20px;
+		font-size: 30px;
 	}
 	hgroup#planguages-animation h3 span{
 		display: inline-flex;
