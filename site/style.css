@@ -15,7 +15,7 @@ a:active{
 	background-color: rgb(248,248,248);
 }
 .content-wrapper{
-	max-width: 64vw;
+	max-width: 64em;
 	padding: 0rem 6rem;
 	margin: 0 auto;
 	margin-bottom: 3rem;
@@ -51,11 +51,7 @@ hgroup#planguages-animation{
 hgroup#planguages-animation h3{
 	margin: 0;
 	padding: 0;
-<<<<<<< HEAD
-	font-size: 2vw;
-=======
 	font-size: 40px;
->>>>>>> parent of aec79c5 (made hover animation only happen on hoverable devices)
 }
 hgroup#planguages-animation h3 span{
 	display: inline-flex;
@@ -92,16 +88,16 @@ header, header h1, header h2, header h3{
 	padding: 0;
 }
 h1{
-	font-size: 2vw;
+	font-size: 2rem;
 	margin: 0.67em 0;
 	font-weight: bold;
 }
 h2{
-	font-size: 1.5vw;
+	font-size: 1.5rem;
 	padding-top: 1.5rem;
 }
 h3{
-	font-size: 1.2vw;
+	font-size: 1.2rem;
 	margin: 0.67em 0;
 	font-weight: normal;
 }
@@ -122,26 +118,26 @@ img{
 	height: auto ;
 }
 .page-header{
-	padding: 5vh;
+	padding: 3rem;
 	background-image: linear-gradient(120deg, #EB5757, #921515);
 }
 .page-footer{
 	padding: 0.1em;
-	font-size: 0.75vw;
+	font-size: 0.75rem;
 	background-color: rgb(27, 27, 27)
 }
 .page-description{
 	opacity: 0.7;
-	font-size: 1.25vw;
+	font-size: 1.25rem;
 	margin-top: 1rem;
 	font-weight: normal;
 }
 .page-name{
-	font-size:3.25vw;
+	font-size:3.25rem;
 	margin: 0;
 }
 .pagenav{
-	font-size: 0.8vw;
+	font-size: 0.8rem;
 	padding: 1rem 0rem;
 	text-align: center;
 }
