@@ -123,9 +123,15 @@ html{
 }
 img{
 	width: auto ;
-	max-width: 50% ;
+	max-width: 64rem ;
 	height: auto ;
 }
+@media (hover: hover) and (pointer: fine) {
+	img{
+		width: auto;
+		max-width: 50%;
+		height: auto;
+	}
 .page-header{
 	padding: 3rem;
 	background-image: linear-gradient(120deg, #EB5757, #921515);
